@@ -85,75 +85,75 @@ calles = [
     ('B', 'D', 3.5, 3.5, True), #de la delia a la imprenta vasquez , semaforo
     ('B', 'C', 3.5, INFINITO, True), #de la delia al pollo del campo , semaforo , liviano
     ('C', 'H', 1.0, INFINITO, True), #del pollo del campo a la esquina del sarita, liviano
-    ('C', 'E', 1.0, INFINITO, True), #del pollo del campo a la esquina de la Dumont, liviano
+    ('C', 'E', 1.0, INFINITO, False), #del pollo del campo a la esquina de la Dumont, liviano
     ('H', 'O', 1.5, INFINITO, True), #de la esquina del sarita a la esquina del billar, liviano
     ('H', 'I', 1.5, INFINITO, True),#de la esquina del sarita a la esquina del pony, liviano
     ('O', 'P', 3.5, INFINITO, True),#de la esquina del billar al suprema, semaforo, liviano
     ('O', 'R', 3.5, INFINITO, True),#de la esquina del billar a la batres, semaforo, liviano
     ('P', 'Q', 3.5, INFINITO, True),#del suprema al gimnasio, semaforo, liviano
-    ('D', 'E', 3.5, 3.5, True),# de la imprenta vasquez a la dumont
-    ('D', 'F', 3.5, 3.5, True),#de la imprenta vasquez al taller de moi
-    ('E', 'I', 3.5, 3.5, True),# de la dumont a la esquina del pony
-    ('E', 'G', 3.5, 3.5, True), #de la dumont a la esquina de la casa de rony
-    ('I', 'R', 3.5, 3.5, True), #de la esquina del pony a la batres, liviano
-    ('I', 'J', 3.5, 3.5, True), #de la esquina del pony a la esquina de flying pizza, liviano
-    ('R', 'Q', 3.5, 3.5, True), #de la batres al gimnasio, liviano
-    ('R', 'S', 3.5, 3.5, True), #de la batres a la ventanita, liviano
-    ('Q', 'T', 3.5, 3.5, True), #del gimnasio a los frappes, liviano
-    ('F', 'G', 3.5, 3.5, True), #del taller del moi a la esquina de la casa de rony, liviano
-    ('F', 'L', 3.5, 3.5, True), #del taller del moi al toril, pesado
-    ('G', 'J', 3.5, 3.5, True), #de la esquina de la casa de rony a la esquina de flyng
-    ('J', 'K', 3.5, 3.5, True), #de la flying a la casa de obreros
-    ('J', 'S', 3.5, 3.5, True), #de la flying a la ventanita
-    ('S', 'U', 3.5, 3.5, True), #de la ventanita a transportes orozco
-    ('S', 'T', 3.5, 3.5, True), #de la ventanita a los frappes
-    ('T', 'V', 3.5, 3.5, True), #de los frappes a acredicom
-    ('L', 'K', 3.5, 3.5, True), #del toril a la casa de los obreros
-    ('L', 'M', 3.5, 3.5, True), #del toril a la iglesia mormona
-    ('M', 'N', 3.5, 3.5, True), # de la iglesia mormona a los tacos walter
-    ('K', 'N', 3.5, 3.5, True), #de la casa de los obreros a los tacos walter
-    ('U', 'W', 3.5, 3.5, True), #de transportes orozco al antiguo candelero de oro
-    ('V', 'W', 3.5, 3.5, True), #de acredicom al antiguo candelero de oro
-    ('W', 'X', 3.5, 3.5, True), #del candelero de oro al miralvalle
-    ('X', 'Y', 3.5, 3.5, True), #del miralvalle a la pasarela de aprofam
-    ('Y', 'AG', 3.5, 3.5, True), #de la pasarela de aprofam a little ceaser's
-    ('AG', 'AF', 3.5, 3.5, True), # de little ceaser's al palacio maya
-    ('AG', 'AH', 3.5, 3.5, True), #de little ceasers a texaco
+    ('D', 'E', 2.0, INFINITO, False),# de la imprenta vasquez a la dumont
+    ('D', 'F', 1.0, 1.0, True),#de la imprenta vasquez al taller de moi
+    ('E', 'I', 1.0, INFINITO, False),# de la dumont a la esquina del pony
+    ('E', 'G', 1.0, INFINITO, False), #de la dumont a la esquina de la casa de rony
+    ('I', 'R', 1.0, INFINITO, True), #de la esquina del pony a la batres, liviano
+    ('I', 'J', 1.5, INFINITO, True), #de la esquina del pony a la esquina de flying pizza, liviano
+    ('R', 'Q', 2.0, INFINITO, True), #de la batres al gimnasio, liviano
+    ('R', 'S', 2.0, INFINITO, True), #de la batres a la ventanita, liviano
+    ('Q', 'T', 2.5, INFINITO, True), #del gimnasio a los frappes, liviano
+    ('F', 'G', 1.0, INFINITO, False), #del taller del moi a la esquina de la casa de rony, liviano
+    ('F', 'L', 2.0, 2.0, True), #del taller del moi al toril, pesado
+    ('G', 'J', 1.0, INFINITO, True), #de la esquina de la casa de rony a la esquina de flyng
+    ('J', 'K', 1.5, INFINITO, True), #de la flying a la casa de obreros
+    ('J', 'S', 1.5, INFINITO, True), #de la flying a la ventanita
+    ('S', 'U', 1.5, INFINITO, True), #de la ventanita a transportes orozco
+    ('S', 'T', 1.5, INFINITO, True), #de la ventanita a los frappes
+    ('T', 'V', 1.0, INFINITO, True), #de los frappes a acredicom
+    ('L', 'K', 2.0, 2.0, True), #del toril a la casa de los obreros
+    ('L', 'M', 2.0, INFINITO, False), #del toril a la iglesia mormona
+    ('M', 'N', 1.0, INFINITO, False), # de la iglesia mormona a los tacos walter
+    ('K', 'N', 1.5, 1.5, True), #de la casa de los obreros a los tacos walter
+    ('U', 'W', 1.0, INFINITO, True), #de transportes orozco al antiguo candelero de oro
+    ('V', 'W', 1.0, INFINITO, True), #de acredicom al antiguo candelero de oro
+    ('W', 'X', 1.5, INFINITO, True), #del candelero de oro al miralvalle
+    ('X', 'Y', 1.5, INFINITO, True), #del miralvalle a la pasarela de aprofam
+    ('Y', 'AG', 3.5, INFINITO, True), #de la pasarela de aprofam a little ceaser's
+    ('AG', 'AF', 1.0, 1.0, True), # de little ceaser's al palacio maya
+    ('AG', 'AH', 1.5, 2.0, True), #de little ceasers a texaco
     ('N', 'Z', 3.5, 3.5, True), #de los tacos walter a la iglesia del mosquito
-    ('Z', 'AA', 3.5, 3.5, True), #de la iglesia del mosquito a deposito cifuentes
-    ('AA', 'AC', 3.5, 3.5, True), #del deposito cifuentes al mundo de las fresas
-    ('AA', 'AB', 3.5, 3.5, True), #del deposito cifuentes a dominos pizza
-    ('AB', 'AE', 3.5, 3.5, True), #de dominos a la escuela del mosquito
-    ('AB', 'AD', 3.5, 3.5, True), #de dominos a los shukos
+    ('Z', 'AA', 1.5, 1.5, True), #de la iglesia del mosquito a deposito cifuentes
+    ('AA', 'AC', 1.5, 1.5, True), #del deposito cifuentes al mundo de las fresas
+    ('AA', 'AB', 2.0, 2.0, True), #del deposito cifuentes a dominos pizza
+    ('AB', 'AE', 2.0, 2.0, True), #de dominos a la escuela del mosquito
+    ('AB', 'AD', 1.5, 1.5, True), #de dominos a los shukos
     ('AE', 'AK', 3.5, 3.5, True), #de la escuela del mosquito al club cevichero
     ('AE', 'AD', 3.5, 3.5, True), #de la escuela del mosquito a los shukos
-    ('AD', 'AK', 3.5, 3.5, True), #de los shukos al club cevichero
-    ('AD', 'AE', 3.5, 3.5, True), #de los shukos a la escuela del mosuqito
-    ('AD', 'AC', 3.5, 3.5, True), #de los shukos al mundo de las fresas
-    ('AC', 'AD', 3.5, 3.5, True), #del mundo de las fresas a los shukos
-    ('AC', 'AF', 3.5, 3.5, True), #del mundo de las fresas al palacio maya
-    ('AF', 'AC', 3.5, 3.5, True), #del palacio maya al mundo de las fresas 
-    ('AF', 'AG', 3.5, 3.5, True), #del palacio maya a little
-    ('AF', 'AJ', 3.5, 3.5, True), #del palacaio maya al taller de mynor
-    ('AJ', 'AI', 3.5, 3.5, True), #del taller de mynor a la ulises
-    ('AJ', 'AM', 3.5, 3.5, True), #del taller de mynor al hall
-    ('AI', 'AH', 3.5, 3.5, True), #de la ulises a la texaco
-    ('AI', 'AO', 3.5, 3.5, True), #de la ulises a la megapaca
-    ('AH', 'AU', 3.5, 3.5, True), #de la texaco al parque
-    ('AK', 'AL', 3.5, 3.5, True), #del club cevichero al sail
-    ('AL', 'AM', 3.5, 3.5, True), #del sail al hall
-    ('AM', 'AO', 3.5, 3.5, True), #del hall a la megapaca
-    ('AO', 'AM', 3.5, 3.5, True), #de la megapaca al hall
-    ('AM', 'AL', 3.5, 3.5, True), #del hall al sail
-    ('AL', 'AN', 3.5, 3.5, True), #del sail a la terminal
-    ('AM', 'AN', 3.5, 3.5, True), #del hall a la terminal
-    ('AO', 'AP', 3.5, 3.5, True), #de la megapaca a la sat
-    ('AP', 'AQ', 3.5, 3.5, True), #de la sat al supermarq
-    ('AQ', 'AR', 3.5, 3.5, True), #del supermarqe a gobernacion
-    ('AR', 'AU', 3.5, 3.5, True), #degobernacion al parque
-    ('AN', 'AT', 3.5, 3.5, True), #de la terminal a la despensa
+    ('AD', 'AK', 2.0, 2.0, False), #de los shukos al club cevichero
+    ('AD', 'AE', 2.0, 2.0, True), #de los shukos a la escuela del mosuqito
+    ('AD', 'AC', 2.0, 2.0, True), #de los shukos al mundo de las fresas
+    ('AC', 'AD', 2.0, 2.0, True), #del mundo de las fresas a los shukos
+    ('AC', 'AF', 2.0, 2.0, True), #del mundo de las fresas al palacio maya
+    ('AF', 'AC', 2.0, 2.0, True), #del palacio maya al mundo de las fresas 
+    ('AF', 'AG', 1.0, 1.0, True), #del palacio maya a little
+    ('AF', 'AJ', 1.5, 1.5, True), #del palacaio maya al taller de mynor
+    ('AJ', 'AI', 1.0, 1.0, True), #del taller de mynor a la ulises
+    ('AJ', 'AM', 1.0, INFINITO, False), #del taller de mynor al hall
+    ('AI', 'AH', 1.0, 1.0, True), #de la ulises a la texaco
+    ('AI', 'AO', 1.0, 1.0, True), #de la ulises a la megapaca
+    ('AH', 'AU', 3.5, INFINITO, True), #de la texaco al parque
+    ('AK', 'AL', 2.0, 2.0, True), #del club cevichero al sail
+    ('AL', 'AM', 1.0, INFINITO, False), #del sail al hall
+    ('AM', 'AO', 3.5, INFINITO, False), #del hall a la megapaca
+    ('AO', 'AM', 3.5, INFINITO, False), #de la megapaca al hall
+    ('AM', 'AL', 1.0, INFINITO, False), #del hall al sail
+    ('AL', 'AN', 1.5, 1.5, True), #del sail a la terminal
+    ('AM', 'AN', 1.5, INFINITO, False), #del hall a la terminal
+    ('AO', 'AP', 1.5, 1.5, True), #de la megapaca a la sat
+    ('AP', 'AQ', 1.5, INFINITO, True), #de la sat al supermarq
+    ('AQ', 'AR', 1.0, INFINITO, True), #del supermarqe a gobernacion
+    ('AR', 'AU', 2.0, 2.0, True), #degobernacion al parque
+    ('AN', 'AT', 2.0, 2.0, True), #de la terminal a la despensa
     ('AT', 'AS', 3.5, 3.5, True), #de la despensa al igss
-    ('AS', 'AR', 3.5, 3.5, True), #del igss a gobernacion
+    ('AS', 'AR', 2.0, 2.0, True), #del igss a gobernacion
 
 
 ]
@@ -194,28 +194,21 @@ def mostrar_mapa_con_ruta(ruta_optima, costo_total, punto_inicio, punto_destino,
     
     # 1. Crear la figura (la ventana)
     fig = plt.figure(figsize=(12, 12)) 
-    
     # 2. Crear los ejes (el lienzo) para que ocupen TODA la figura
     ax = fig.add_axes([0, 0, 1, 1]) 
-    
-    # 3. Ocultar completamente los bordes, etiquetas y ticks de los ejes
     ax.axis('off') 
-
-    # --- CAMBIO IMPORTANTE ---
-    # Mostrar la imagen como fondo y forzarla a estirarse
     ax.imshow(img_array, aspect='auto') 
-    # --- FIN DEL CAMBIO ---
 
-    # Dibujar Nodos y Etiquetas (sin cambios)
+    # Dibujar Nodos y Etiquetas 
     nx.draw_networkx_nodes(G, pos=posiciones_ajustadas, ax=ax, node_size=300, node_color='skyblue', alpha=0.9)
     nx.draw_networkx_labels(G, pos=posiciones_ajustadas, ax=ax, font_size=9, font_weight='bold')
     
-    # Dibujar Aristas de la Ruta Óptima (sin cambios)
+    # Dibujar Aristas de la Ruta Óptima 
     aristas_ruta = list(zip(ruta_optima[:-1], ruta_optima[1:]))
     nx.draw_networkx_edges(G, pos=posiciones_ajustadas, ax=ax, edgelist=aristas_ruta, 
                            edge_color='red', width=3, arrows=True, arrowsize=20)
     
-    # Poner el título en la barra de la ventana (sin cambios)
+    # Poner el título en la barra de la ventana 
     titulo_mapa = f"Ruta Óptima de {punto_inicio} a {punto_destino} (T. {titulo_transporte})"
     if hora_actual in HORAS_PICO:
         titulo_mapa += " - ¡Optimizado para Hora Pico!"
@@ -228,7 +221,6 @@ def mostrar_mapa_con_ruta(ruta_optima, costo_total, punto_inicio, punto_destino,
     plt.show()
 
 def on_calcular_ruta_click():
-    """ Función que se llama al presionar el botón """
     punto_inicio = combo_inicio.get()
     punto_destino = combo_destino.get()
     
@@ -288,7 +280,7 @@ else:
 # Crear la ventana principal
 root = tk.Tk()
 root.title("Optimización de Rutas")
-root.geometry("450x450") # Tamaño de la ventana
+root.geometry("600x600") # Tamaño de la ventana
 root.resizable(False, False) # Evitar que se cambie el tamaño
 
 # Crear un frame principal para organizar
@@ -301,7 +293,7 @@ label_titulo.pack(pady=5)
 
 # Mensaje de hora
 label_hora = ttk.Label(frame, text=mensaje_hora, font=("Helvetica", 9),
-                       foreground='orange' if es_pico else 'green')
+                       foreground='red' if es_pico else 'green')
 label_hora.pack(pady=5)
 
 ttk.Separator(frame, orient='horizontal').pack(fill='x', pady=10)
@@ -347,7 +339,7 @@ ttk.Separator(frame, orient='horizontal').pack(fill='x', pady=10)
 label_resultado = ttk.Label(frame, text="Resultado:", font=("Helvetica", 10, "bold"))
 label_resultado.pack(anchor='w')
 
-texto_resultado = tk.Text(frame, height=8, state=tk.DISABLED, background="#f0f0f0")
+texto_resultado = tk.Text(frame, height=8, state=tk.DISABLED, background="#d6ecff")
 texto_resultado.pack(fill='x', expand=True)
 
 # Iniciar el loop de la GUI
