@@ -81,21 +81,21 @@ posiciones = {
 }
 
 calles = [
-    ('A', 'B', 2.0, 2.0, True), #del gallo a la delia
-    ('B', 'D', 3.5, 3.5, True), #de la delia a la imprenta vasquez , semaforo
-    ('B', 'C', 3.5, INFINITO, True), #de la delia al pollo del campo , semaforo , liviano
-    ('C', 'H', 1.0, INFINITO, True), #del pollo del campo a la esquina del sarita, liviano
-    ('C', 'E', 1.0, INFINITO, False), #del pollo del campo a la esquina de la Dumont, liviano
-    ('H', 'O', 1.5, INFINITO, True), #de la esquina del sarita a la esquina del billar, liviano
-    ('H', 'I', 1.5, INFINITO, True),#de la esquina del sarita a la esquina del pony, liviano
-    ('O', 'P', 3.5, INFINITO, True),#de la esquina del billar al suprema, semaforo, liviano
-    ('O', 'R', 3.5, INFINITO, True),#de la esquina del billar a la batres, semaforo, liviano
-    ('P', 'Q', 3.5, INFINITO, True),#del suprema al gimnasio, semaforo, liviano
-    ('D', 'E', 2.0, INFINITO, False),# de la imprenta vasquez a la dumont
-    ('D', 'F', 1.0, 1.0, True),#de la imprenta vasquez al taller de moi
-    ('E', 'I', 1.0, INFINITO, False),# de la dumont a la esquina del pony
-    ('E', 'G', 1.0, INFINITO, False), #de la dumont a la esquina de la casa de rony
-    ('I', 'R', 1.0, INFINITO, True), #de la esquina del pony a la batres, liviano
+    ('A', 'B', 2.0, 2.0, True), #del gallo a la delia, liviano, pesado, trafico
+    ('B', 'D', 3.5, 3.5, True), #de la delia a la imprenta vasquez , liviano, pesado , semáforo
+    ('B', 'C', 3.5, INFINITO, True), #de la delia al pollo del campo , liviano, seáforo
+    ('C', 'H', 1.0, INFINITO, True), #del pollo del campo a la esquina del sarita, liviano, tráfico
+    ('C', 'E', 1.0, INFINITO, False), #del pollo del campo a la esquina de la Dumont, liviano, sin tráfico
+    ('H', 'O', 1.5, INFINITO, True), #de la esquina del sarita a la esquina del billar, liviano, tráfico
+    ('H', 'I', 1.5, INFINITO, True),#de la esquina del sarita a la esquina del pony, liviano, tráfico
+    ('O', 'P', 3.5, INFINITO, True),#de la esquina del billar al suprema, semaforo, liviano, tráfico
+    ('O', 'R', 3.5, INFINITO, True),#de la esquina del billar a la batres, semaforo, liviano, tráfico
+    ('P', 'Q', 3.5, INFINITO, True),#del suprema al gimnasio, semaforo, liviano, tráfico
+    ('D', 'E', 2.0, INFINITO, False),# de la imprenta vasquez a la dumont, liviano, tráfico
+    ('D', 'F', 1.0, 1.0, True),#de la imprenta vasquez al taller de moi, liviano, pesado, tráfico
+    ('E', 'I', 1.0, INFINITO, False),# de la dumont a la esquina del pony, liviano, sin tráfico
+    ('E', 'G', 1.0, INFINITO, False), #de la dumont a la esquina de la casa de rony, liviano, sin tráfico
+    ('I', 'R', 1.0, INFINITO, True), #de la esquina del pony a la batres, liviano, liviano, tráfico
     ('I', 'J', 1.5, INFINITO, True), #de la esquina del pony a la esquina de flying pizza, liviano
     ('R', 'Q', 2.0, INFINITO, True), #de la batres al gimnasio, liviano
     ('R', 'S', 2.0, INFINITO, True), #de la batres a la ventanita, liviano
